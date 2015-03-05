@@ -9,24 +9,51 @@
 	</head>
 
 	<body>
-	<div class="container">
+	<!-- <div class="container">
 		<div class = "row">
 			<img src = "http://g.fastcompany.net/multisite_files/coexist/imagecache/1280/poster/2013/04/1681873-poster-1280-stock-chart.jpg" alt = "stock image" width = "100%" height="150" class = "col-lg-7"/>
 
 		</div>
+	</div> -->
+
+	<div>
+		<nav class="navbar navbar-default">
+			<form class="navbar-form navbar-right">
+				<div class="form-group">
+					<input type="text" class="form-control" name="username" placeholder="Username">
+				</div>
+
+				<div class="form-group">
+					<input type="text" class="form-control" name="password" placeholder="Password">
+				</div>
+				<button type = "submit" class="btn btn-default">Sign In</button>
+			</form>
+			
+		</nav>
 	</div>
 
-	<ul class = "nav nav-tabs navbar-right">
-		<li class = "active"><a href="#"> My Profile</a></li>
-		<li ><a href="#"> My Dashboard</a></li>
-	</ul>
 
-	<div class="jumbotron">
-		<div class = "container" style="background-color: grey">
+	<div class = "container" style="background-color: grey">
+		<div class="jumbotron">
 			<h2>Hello world</h2>
 			<button class="btn btn-warning btn-md"><a href="http://www.google.com">Check me out</a></button>
 		</div>
 
+	</div>
+
+	<div class="container">
+		<ul class = "nav nav-pills navbar-le">
+			<li class = "active"><a href="#"> My Profile</a></li>
+			<li ><a href="#"> My Dashboard</a></li>
+			<li class = "dropdown"><a href="#" data-toggle = "dropdown" class="dropdown-toggle">Charters<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li>Lines</li>
+					<li>Dots</li>
+					<li class="divider">Add New</li>
+					<li>New Charter</li>
+				</ul>
+			</li>
+		</ul>
 	</div>
 
 	<div class = "panel paenl-default">
